@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Princessburger</title>
+    <title>Le Roi Du Burger</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,24 @@
   </head>
 
   <body>
+      <header>
+        <%= image_tag "logo_roi_du_burger.png", alt: "Logo du Roi du Burger" %>
+                <button>Create Burger</button>
+                <button>View Burgers</button>
+              </header>
+              <%= yield %>
+            </body>
+          </html>
+
+            <%= yield %>
+          </body>
+        </html>
+
+      </header>
+      <%= yield %>
+    </body>
+  </html>
+
     <%= yield %>
   </body>
 </html>
