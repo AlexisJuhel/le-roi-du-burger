@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+header {
+  background-color: #522411;
+  height: 300px;
+  width: 100%;
+}
+
+.img_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.button_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+img[alt="Logo du Roi du Burger"] {
+  width: 200px;
+  height: 200px;
+}

@@ -12,23 +12,14 @@
 
   <body>
       <header>
-        <%= image_tag "logo_roi_du_burger.png", alt: "Logo du Roi du Burger" %>
-                <button>Create Burger</button>
-                <button>View Burgers</button>
-              </header>
-              <%= yield %>
-            </body>
-          </html>
+          <div class="img_header">
+            <%= image_tag "logo_roi_du_burger.png", alt: "Logo du Roi du Burger" %>
+          </div>
 
-            <%= yield %>
-          </body>
-        </html>
-
+          <div class="button_header">
+            <button>Create Burger</button>
+            <button>View Burgers</button>
+          </div>
       </header>
-      <%= yield %>
-    </body>
-  </html>
-
-    <%= yield %>
-  </body>
+         <%= yield %>
 </html>
