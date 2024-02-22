@@ -5,8 +5,12 @@
 <%= render @burger %>
 </div>
 
-<%= link_to "Edit this burger", edit_burger_path(@burger) %> |
-<%= link_to "Back to burgers", burgers_path %>
-<div class="destroy">
-<%= button_to "Destroy this burger", @burger, method: :delete, class:"destroy" %>
+<div class="disposition_edit_sup">
+
+  <%= link_to image_tag("modifier_burger.png", class: "modifier_burger"), edit_burger_path(@burger) %>
+
+  <%= button_to image_tag("supprimer_burger.png", class: "supprimer_burger"), @burger, method: :delete, class:"destroy" %>
+
 </div>
+
+<%= link_to image_tag("retour_aux_burger.png", class: "retour_aux_burgers"), burgers_path %>
