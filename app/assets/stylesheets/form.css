@@ -1,7 +1,7 @@
 #form_burger {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 25vw;
     padding: 30px;
     border-radius: 10px;
     background-color: #f3f3f3;
@@ -26,15 +26,49 @@
 }
 
 .form_zone{
-appearance: none;
-outline: 0px;
-box-sizing: border-box;
-padding: 5px 10px;
-margin-top: 8px;
-border: 1px solid rgb(203, 189, 185);
+  appearance: none;
+  resize: none;
+  width: 25vw;
+  outline: 0px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  margin-top: 8px;
+  border: 1px solid rgb(203, 189, 185);
   border-top-color: rgb(203, 189, 185);
   border-right-color: rgb(203, 189, 185);
   border-bottom-color: rgb(203, 189, 185);
   border-left-color: rgb(203, 189, 185);
-height: 40px;
+  height: 35px;
+  border-radius: 10px;
+}
+.form_zone2{
+  appearance: none;
+  resize: none;
+  width: 25vw;
+  outline: 0px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  margin-top: 8px;
+  border: 1px solid rgb(203, 189, 185);
+  border-top-color: rgb(203, 189, 185);
+  border-right-color: rgb(203, 189, 185);
+  border-bottom-color: rgb(203, 189, 185);
+  border-left-color: rgb(203, 189, 185);
+  height: 70px;
+  border-radius: 10px;
+}
+
+.retour{
+  appearance: none;
+  outline: 0px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin-top: 10px;
+  border: medium none;
+  background: rgb(247, 168, 0);
+  color: rgb(255, 255, 255);
 }
