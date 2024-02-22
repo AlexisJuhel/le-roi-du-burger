@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @icecream %>
+
+<div>
+  <%= link_to "Edit this icecream", edit_icecream_path(@icecream) %> |
+  <%= link_to "Back to icecreams", icecreams_path %>
+
+  <%= button_to "Destroy this icecream", @icecream, method: :delete %>
+</div>
