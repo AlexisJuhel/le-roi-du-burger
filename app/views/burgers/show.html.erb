@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href=app/assets/stylesheets/show.css/>
+<%= stylesheet_link_tag "show", "data-turbo-track": "reload" %>
 <p style="color: green"><%= notice %></p>
 
 <div class="show_burger">
@@ -7,5 +7,6 @@
 
 <%= link_to "Edit this burger", edit_burger_path(@burger) %> |
 <%= link_to "Back to burgers", burgers_path %>
-
-<%= button_to "Destroy this burger", @burger, method: :delete %>
+<div class="destroy">
+<%= button_to "Destroy this burger", @burger, method: :delete, class:"destroy" %>
+</div>
