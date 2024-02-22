@@ -1,3 +1,4 @@
+<%= stylesheet_link_tag "form", "data-turbo-track": "reload" %>
 <%= form_with(model: icecream) do |form| %>
   <% if icecream.errors.any? %>
     <div style="color: red">
@@ -11,9 +12,11 @@
     </div>
   <% end %>
 
+<div id="create_burger">
+  <div id="form_burger">
   <div>
     <%= form.label :image, style: "display: block" %>
-    <%= form.text_area :image%>
+    <%= form.text_area :image, class:"form_zone"%>
   </div>
 
   <div>
@@ -31,7 +34,9 @@
     <%= form.text_area :description, class:"form_zone" %>
   </div>
 
-  <div>
-    <%= form.submit %>
+  <div class="submit-button">
+      <%= form.submit class:"submi-button"%>
+    </div>
+  </div>
   </div>
 <% end %>

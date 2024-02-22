@@ -134,7 +134,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid #ECE6DD;
+  border: none;
 }
 
 .montre_moi_ca {

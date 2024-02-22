@@ -51,3 +51,8 @@
 .montrer_burger:hover{
   transform: scale(1.1);
 }
+.show_burger{
+  background-color: #FF8732;
+  margin: 10px;
+  border: none;
+}

@@ -1,3 +1,4 @@
+<%= stylesheet_link_tag "indexi", "data-turbo-track": "reload" %>
 <p style="color: green"><%= notice %></p>
 
 
@@ -8,10 +9,6 @@
     <% @icecreams.each do |icecream| %>
       <div id="le_burger">
         <%= render icecream %>
-          <div class="button_montre_moi_ca">
-            <p class="montre_moi_ca">
-            <%= link_to "Montre moi ça", icecream %>
-          </p>
         </div>
       </div>
     <% end %>

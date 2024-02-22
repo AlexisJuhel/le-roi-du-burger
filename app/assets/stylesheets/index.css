@@ -133,13 +133,14 @@ h2 {
 
 .card-body{
   background-color: #FF8732;
-
+  border: none;
 }
 
 .button_montre_moi_ca{
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
 }
 
 .montre_moi_ca {
