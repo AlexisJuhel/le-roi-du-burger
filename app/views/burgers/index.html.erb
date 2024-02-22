@@ -3,13 +3,13 @@
 
 <h1>Nos Burgers les plus GRRRRR</h1>
 
-<div id="burgers" col >
-  <% @burgers.each do |burger| %>
-    <%= render burger %>
-    <p>
-      <%= link_to "Show this burger", burger %>
-    </p>
-  <% end %>
-</div>
+  <div id="disposition_card_menu">
+    <% @burgers.each do |burger| %>
+      <%= render burger %>
+      <p class="montre_moi_ca">
+        <%= link_to "Montre moi ça", burger %>
+      </p>
+    <% end %>
+  </div>
 
 <%= link_to "New burger", new_burger_path %>
