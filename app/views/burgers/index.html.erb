@@ -18,7 +18,7 @@
       <div id="le_burger">
         <%= render burger %>
           <div class="button_montre_moi_ca">
-          <p class="montre_moi_ca">
+            <p class="montre_moi_ca">
             <%= link_to "Montre moi ça", burger %>
           </p>
         </div>
@@ -27,8 +27,9 @@
   </div>
 </div>
 
-<%= link_to "New burger", new_burger_path %>
-
+<div class="disposition_ajout_burger">
+  <%= link_to "Ajouter un Burger +", new_burger_path, class: "bouton_ajout_burger" %>
+</div>
 
   <div id="disposition_map">
     <div id="map">
