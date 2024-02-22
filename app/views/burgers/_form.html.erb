@@ -1,3 +1,4 @@
+<%= stylesheet_link_tag "form", "data-turbo-track": "reload" %>
 <%= form_with(model: burger) do |form| %>
   <% if burger.errors.any? %>
     <div style="color: red">
@@ -39,7 +40,7 @@
     </div>
 
     <div class="submit-button">
-      <%= form.submit %>
+      <%= form.submit class:"submi-button"%>
     </div>
   </div>
 </div>

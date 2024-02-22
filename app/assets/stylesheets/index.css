@@ -61,17 +61,7 @@ h2 {
   align-items: center;
 }
 
-#form_burger {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    padding: 30px;
-    border-radius: 10px;
-    background-color: #FF8732;
-    color: #522411;
-    font-family: insaniburger;
-    font-size: medium;
-}
+
 
 .show_burger{
     display: flex;

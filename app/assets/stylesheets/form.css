@@ -1,0 +1,24 @@
+#form_burger {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    color: #522411;
+    font-family: insaniburger;
+    font-size: medium;
+}
+.submi-button{
+    appearance: none;
+    outline: 0px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px 24px;
+    border: medium none;
+    background: rgb(247, 168, 0);
+    color: rgb(255, 255, 255);
+}
