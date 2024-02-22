@@ -5,7 +5,7 @@
     <p><%= burger.name %></p>
     <p><%= burger.price %> €</p>
     <p><%= burger.description %></p>
-    <%= image_tag "veggi.png", alt:"Veggie", class: 'img-fluid' if burger.veggie %>
+    <%= image_tag "veggi.png", alt:"Veggie", class: 'img-fluid veggie' if burger.veggie %>
     <div class="button_montre_moi_ca">
       <p class="montre_moi_ca">
         <%= link_to "Montre moi ça", burger %>
