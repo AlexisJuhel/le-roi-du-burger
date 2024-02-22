@@ -11,32 +11,36 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.label :image, style: "display: block" %>
-    <%= form.text_area :image %>
-  </div>
+<div id="create_burger">
+  <div id="form_burger">
+    <div>
+      <%= form.label :image, style: "display: block" %>
+      <%= form.text_area :image %>
+    </div>
 
-  <div>
-    <%= form.label :name, style: "display: block" %>
-    <%= form.text_area :name %>
-  </div>
+    <div>
+      <%= form.label :name, style: "display: block" %>
+      <%= form.text_area :name %>
+    </div>
 
-  <div>
-    <%= form.label :price, style: "display: block" %>
-    <%= form.text_field :price %>
-  </div>
+    <div>
+      <%= form.label :price, style: "display: block" %>
+      <%= form.text_field :price %>
+    </div>
 
-  <div>
-    <%= form.label :description, style: "display: block" %>
-    <%= form.text_area :description %>
-  </div>
+    <div>
+      <%= form.label :description, style: "display: block" %>
+      <%= form.text_area :description %>
+    </div>
 
-  <div>
-    <%= form.label :veggie, style: "display: block" %>
-    <%= form.check_box :veggie %>
-  </div>
+    <div>
+      <%= form.label :veggie, style: "display: block" %>
+      <%= form.check_box :veggie %>
+    </div>
 
-  <div>
-    <%= form.submit %>
+    <div class="submit-button">
+      <%= form.submit %>
+    </div>
   </div>
+</div>
 <% end %>

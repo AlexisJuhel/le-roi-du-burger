@@ -13,3 +13,75 @@
  *= require_tree .
  *= require_self
  */
+
+header {
+  background-color: #522411;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+img[alt="Logo du Roi du Burger"] {
+  margin: 20px 0px 20px 0px;
+  width: 200px;
+  height: 200px;
+}
+
+.button_header {
+  display: flex;
+  align-items: center;
+}
+
+.creat_burger {
+  font-family: insaniburger;
+  background-color: #CC1900;
+  color: #ECE6DD;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20vh;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.creat_burger:hover {
+  background-color: #ECE6DD;
+  color: #CC1900;
+}
+
+.view_burger {
+  font-family: insaniburger;
+  background-color: #CC1900;
+  color: #ECE6DD;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 20vh;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.view_burger:hover {
+  background-color: #ECE6DD;
+  color: #CC1900;
+
+}
+
+
+footer{
+  background-color: #522411;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.txt_footer {
+  color: #ECE6DD;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: insaniburger;
+}

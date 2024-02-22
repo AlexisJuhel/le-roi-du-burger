@@ -12,23 +12,19 @@
 
   <body>
       <header>
-        <%= image_tag "logo_roi_du_burger.png", alt: "Logo du Roi du Burger" %>
-                <button>Create Burger</button>
-                <button>View Burgers</button>
-              </header>
-              <%= yield %>
-            </body>
-          </html>
 
-            <%= yield %>
-          </body>
-        </html>
-
+          <div class="button_header">
+            <button class="creat_burger">Create Burger</button>
+            <%= image_tag "logo_roi_du_burger.png", alt:"Logo du Roi du Burger" %>
+            <button class="view_burger">View Burgers</button>
+          </div>
       </header>
-      <%= yield %>
-    </body>
-  </html>
 
-    <%= yield %>
-  </body>
+         <%= yield %>
+      <footer>
+        <p class="txt_footer">&copy; 2024 Le Roi Du Burger. Tout droits réservé.</p>
+      </footer>
+
+
+
 </html>

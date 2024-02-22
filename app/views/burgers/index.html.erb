@@ -12,4 +12,16 @@
   <% end %>
 </div>
 
+<h1>Nos Burgers les plus GRRRRR</h1>
+
+<div class="disposition_card_menu">
+  <div id="burgers">
+    <% @burgers.each do |burger| %>
+      <%= render burger %>
+      <p>
+        <%= link_to "Show this burger", burger %>
+      </p>
+    <% end %>
+  </div>
+</div>
 <%= link_to "New burger", new_burger_path %>
