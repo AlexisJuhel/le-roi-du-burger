@@ -116,12 +116,25 @@ h2 {
   width: 300px;
   height: 300px;
   border-radius: 10px;
+
+}
+
+#le_burger{
+  margin: 20px;
+  display: table-column;
+  align-items: center;
+}
+
+.button_montre_moi_ca{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .montre_moi_ca {
   font-family: insaniburger;
   background-color: #CC1900;
-  color: #ECE6DD;
   border: 0px;
   border-radius: 5px;
   padding: 10px;
@@ -129,5 +142,10 @@ h2 {
   font-size: 30px;
   font-weight: bold;
   transition: 0.5s;
+  width: 230px;
+}
+.montre_moi_ca a{
+  align-items: center;
   text-decoration: none;
+  color: #ECE6DD;
 }
