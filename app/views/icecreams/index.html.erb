@@ -12,3 +12,31 @@
 </div>
 
 <%= link_to "New icecream", new_icecream_path %>
+
+<h1>Nos Glaces les plus GLAGLAGLA</h1>
+
+<div id="dispo_menu">
+  <div id="disposition_card_menu">
+    <% @burgers.each do |burger| %>
+      <div id="le_burger">
+        <%= render burger %>
+          <div class="button_montre_moi_ca">
+            <p class="montre_moi_ca">
+            <%= link_to "Montre moi ça", burger %>
+          </p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<div class="disposition_ajout_burger">
+  <%= link_to "Ajouter un Burger +", new_burger_path, class: "bouton_ajout_burger" %>
+</div>
+
+  <div id="disposition_map">
+    <div id="map">
+      <h1 id="on_va_ou">On va où ???</h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.160605841225!2d-0.567809343563199!3d44.879380445905745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5529fd793afcb3%3A0xc85e33c336150653!2sBurger%20King!5e0!3m2!1sfr!2sfr!4v1708594111403!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
