@@ -130,6 +130,12 @@ h2 {
   align-items: center;
 }
 
+.card-body{
+  background-color: #FF8732;
+  font-family: insaniburger;
+  border: none;
+}
+
 .button_montre_moi_ca{
   display: flex;
   justify-content: center;
@@ -169,14 +175,14 @@ h2 {
   color: #CC1900;
 }
 
-.disposition_ajout_burger {
+.disposition_ajout_icecream {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
 }
 
-.bouton_ajout_burger {
+.bouton_ajout_icecream {
   font-family: insaniburger;
   background-color: #ffae16;
   border: 0px;
@@ -190,12 +196,14 @@ h2 {
   text-decoration: none;
 }
 
-.bouton_ajout_burger:hover {
+.bouton_ajout_icecream:hover {
   align-items: center;
   text-decoration: none;
   color: #ffae16;
   background-color: #522411;
 }
+
+
 
 #disposition_map {
   display: flex;
@@ -213,7 +221,7 @@ h2 {
   background-color: #522411;
   border-radius: 10px;
   padding: 20px 20px 40px 20px;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0px 50px 0px;
 }
 
 #on_va_ou {
@@ -221,3 +229,4 @@ h2 {
   color: #ECE6DD;
   font-size: 30px;
 }
+

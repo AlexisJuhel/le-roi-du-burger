@@ -2,12 +2,22 @@
 <p style="color: green"><%= notice %></p>
 
 
+<div class="burger_moment">
+  <div class="burger_moment_card">
+    <h1 class="txt_special">La Reine des glaces</h1>
+    <%= image_tag "logo_roi_du_burger.png", alt:"Logo du Roi du Burger" %>
+    <h2 class="txt_special">La spéciale</h2>
+    <p class="card_description txt_special">Elle est bonne elle.</p>
+  </div>
+</div>
+
+
 <h1>Nos Glaces les plus GLAGLAGLA</h1>
 
 <div id="dispo_menu">
   <div id="disposition_card_menu">
     <% @icecreams.each do |icecream| %>
-      <div id="le_burger">
+     <div class="col-lg-6">
         <%= render icecream %>
         </div>
       </div>
@@ -15,8 +25,8 @@
   </div>
 </div>
 
-<div class="disposition_ajout_burger">
-  <%= link_to "Ajouter une Glace +", new_icecream_path, class: "bouton_ajout_burger" %>
+<div class="disposition_ajout_icecream">
+  <%= link_to "Ajouter une Glace +", new_icecream_path, class: "bouton_ajout_icecream" %>
 </div>
 
   <div id="disposition_map">

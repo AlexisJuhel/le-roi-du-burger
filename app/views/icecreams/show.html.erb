@@ -1,10 +1,14 @@
+<%= stylesheet_link_tag "show", "data-turbo-track": "reload" %>
 <p style="color: green"><%= notice %></p>
 
 <%= render @icecream %>
 
-<div>
-  <%= link_to "Edit this icecream", edit_icecream_path(@icecream) %> |
-  <%= link_to "Back to icecreams", icecreams_path %>
+<div class="disposition_edit_sup">
 
-  <%= button_to "Destroy this icecream", @icecream, method: :delete %>
+  <%= link_to image_tag("modifier_glace.png", class: "modifier_burger"), edit_icecream_path(@icecream) %>
+
+  <%= button_to image_tag("supprimer_glace.png", class: "supprimer_burger"), @icecream, method: :delete, class:"destroy" %>
+
 </div>
+
+<%= link_to image_tag("retour_aux_glaces.png", class: "retour_aux_burgers"), icecreams_path %>
