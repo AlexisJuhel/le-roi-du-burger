@@ -128,7 +128,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  border: 5px solid #ECE6DD;
 }
 
 .montre_moi_ca {
@@ -141,12 +141,54 @@ h2 {
   font-size: 30px;
   font-weight: bold;
   transition: 0.5s;
-  width: 230px;
+  border: 5px solid #CC1900;
 }
+
+.montre_moi_ca:hover {
+  align-items: center;
+  text-decoration: none;
+  color: #CC1900;
+  background-color: #ECE6DD;
+  border: 5px solid #CC1900;
+}
+
 .montre_moi_ca a{
   align-items: center;
   text-decoration: none;
   color: #ECE6DD;
+  transition: 0.5s;
+}
+
+.montre_moi_ca:hover a{
+  color: #CC1900;
+}
+
+.disposition_ajout_burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.bouton_ajout_burger {
+  font-family: insaniburger;
+  background-color: #ffae16;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.5s;
+  color: #522411;
+  text-decoration: none;
+}
+
+.bouton_ajout_burger:hover {
+  align-items: center;
+  text-decoration: none;
+  color: #ffae16;
+  background-color: #522411;
 }
 
 #disposition_map {
