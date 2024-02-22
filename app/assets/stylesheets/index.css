@@ -91,8 +91,17 @@ h2 {
     border-radius: 10px;
 }
 
+#dispo_menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
 #disposition_card_menu {
   justify-content: center;
+  align-items: center;
   display: flex;
   width : 90vw;
   flex-wrap: wrap;
@@ -148,4 +157,30 @@ h2 {
   align-items: center;
   text-decoration: none;
   color: #ECE6DD;
+}
+
+#disposition_map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#map {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #522411;
+  border-radius: 10px;
+  padding: 20px 20px 40px 20px;
+  margin-bottom: 20px;
+}
+
+#on_va_ou {
+  font-family: insaniburger;
+  color: #ECE6DD;
+  font-size: 30px;
 }
