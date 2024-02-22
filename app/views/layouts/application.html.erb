@@ -14,13 +14,18 @@
       <header>
 
           <div class="button_header">
-            <button class="creat_burger" href="">Create Burger</button>
+
+            <%= link_to "Créer un burger", new_burger_path, class: "creat_burger" %>
+
             <%= image_tag "logo_roi_du_burger.png", alt:"Logo du Roi du Burger" %>
-            <button class="view_burger">View Burgers</button>
+
+            <a class="view_burger" href="#disposition_card_menu">View Burgers</a>
+
           </div>
       </header>
-
+      <main class="container">
          <%= yield %>
+      </main>
       <footer>
         <p class="txt_footer">&copy; 2024 Le Roi Du Burger. Tout droits réservé.</p>
       </footer>

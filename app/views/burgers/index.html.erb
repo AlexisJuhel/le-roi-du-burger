@@ -13,15 +13,10 @@
 <h1>Nos Burgers les plus GRRRRR</h1>
 
 <div id="dispo_menu">
-  <div id="disposition_card_menu">
+  <div class="row">
     <% @burgers.each do |burger| %>
-      <div id="le_burger">
+      <div class="col-lg-4">
         <%= render burger %>
-          <div class="button_montre_moi_ca">
-            <p class="montre_moi_ca">
-            <%= link_to "Montre moi ça", burger %>
-          </p>
-        </div>
       </div>
     <% end %>
   </div>
