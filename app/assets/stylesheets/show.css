@@ -1,4 +1,38 @@
-.destroy{
-    color:aquamarine;
-    background-color: rebeccapurple;
+.disposition_edit_sup {
+  display: flex;
+}
+
+.modifier_burger {
+  width: 10vw;
+  margin: 20px 30px 0px 20px;
+  transition: 0.5s;
+}
+
+.modifier_burger:hover{
+  transform: scale(1.1);
+}
+
+.supprimer_burger{
+  width: 10vw;
+  margin: 20px 0px 0px 20px;
+  transition: 0.5s;
+}
+
+.supprimer_burger:hover{
+  transform: scale(1.1);
+}
+
+.destroy {
+  background: none;
+  border: none;
+}
+
+.retour_aux_burgers{
+  width: 15vw;
+  margin: 20px 0px 0px 20px;
+  transition: 0.5s;
+}
+
+.retour_aux_burgers:hover{
+  transform: scale(1.1);
 }
