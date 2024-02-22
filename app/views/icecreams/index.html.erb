@@ -1,28 +1,16 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Icecreams</h1>
-
-<div id="icecreams">
-  <% @icecreams.each do |icecream| %>
-    <%= render icecream %>
-    <p>
-      <%= link_to "Show this icecream", icecream %>
-    </p>
-  <% end %>
-</div>
-
-<%= link_to "New icecream", new_icecream_path %>
 
 <h1>Nos Glaces les plus GLAGLAGLA</h1>
 
 <div id="dispo_menu">
   <div id="disposition_card_menu">
-    <% @burgers.each do |burger| %>
+    <% @icecreams.each do |icecream| %>
       <div id="le_burger">
-        <%= render burger %>
+        <%= render icecream %>
           <div class="button_montre_moi_ca">
             <p class="montre_moi_ca">
-            <%= link_to "Montre moi ça", burger %>
+            <%= link_to "Montre moi ça", icecream %>
           </p>
         </div>
       </div>
@@ -31,7 +19,8 @@
 </div>
 
 <div class="disposition_ajout_burger">
-  <%= link_to "Ajouter un Burger +", new_burger_path, class: "bouton_ajout_burger" %>
+  <%= link_to "Ajouter un Burger +", new_icecream_path, class: "bouton_ajout_burger" %>
+  <%= link_to "New icecream", new_icecream_path , class: "bouton_ajout_burger"%>
 </div>
 
   <div id="disposition_map">
