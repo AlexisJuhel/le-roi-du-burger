@@ -1,22 +1,14 @@
-<div id="<%= dom_id icecream %>">
-  <p>
-    <strong>Image:</strong>
-    <%= icecream.image %>
-  </p>
 
-  <p>
-    <strong>Name:</strong>
-    <%= icecream.name %>
-  </p>
-
-  <p>
-    <strong>Price:</strong>
-    <%= icecream.price %>
-  </p>
-
-  <p>
-    <strong>Description:</strong>
-    <%= icecream.description %>
-  </p>
-
+<div class="card text-center p-3" style="width: 30rem;" id="burger_card_menu">
+<div <%= dom_id icecream %>>
+  <img class="card-img-top" src="<%= icecream.image %>" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Nom</h5>
+    <p class="card-text"><%= icecream.name %></p>
+    <h5 class="card-title">Prix</h5>
+    <p class="card-text"><%= icecream.price %></p>
+    <h5 class="card-title">Description</h5>
+    <p class="card-text"><%= icecream.description %></p>
+  </div>
+</div>
 </div>
