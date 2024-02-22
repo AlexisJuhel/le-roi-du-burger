@@ -1,7 +1,7 @@
 #form_burger {
     display: flex;
     flex-direction: column;
-    width: 25vw;
+    width: 30vw;
     padding: 30px;
     border-radius: 10px;
     background-color: #f3f3f3;
