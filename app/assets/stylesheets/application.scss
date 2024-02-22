@@ -14,7 +14,7 @@
  *= require_self
  */
  @import "bootstrap";
- 
+
 header {
   background-color: #522411;
   width: 100%;
@@ -44,6 +44,7 @@ img[alt="Logo du Roi du Burger"] {
   font-size: 40px;
   font-weight: bold;
   transition: 0.5s;
+  text-decoration: none;
 }
 
 .creat_burger:hover {
@@ -63,6 +64,7 @@ img[alt="Logo du Roi du Burger"] {
   font-size: 40px;
   font-weight: bold;
   transition: 0.5s;
+  text-decoration: none;
 }
 
 .view_burger:hover {
@@ -70,6 +72,7 @@ img[alt="Logo du Roi du Burger"] {
   color: #CC1900;
   cursor: pointer;
 }
+
 
 
 footer{
