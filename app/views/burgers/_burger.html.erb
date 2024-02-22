@@ -1,29 +1,17 @@
-<div id="burger_card_menu">
-  <div id="<%= dom_id burger %>">
-    <p>
-      <strong>Image:</strong>
 
-    </p>
-    <img src="<%= burger.image %>">
-    <p>
-      <strong>Name:</strong>
-      <%= burger.name %>
-    </p>
 
-    <p>
-      <strong>Price:</strong>
-      <%= burger.price %>
-    </p>
-
-    <p>
-      <strong>Description:</strong>
-      <%= burger.description %>
-    </p>
-
-    <p>
-      <strong>Veggie:</strong>
-      <%= burger.veggie %>
-    </p>
-
+<div class="card text-center p-3" style="width: 30rem;" id="burger_card_menu">
+<div <%= dom_id burger %>>
+  <img class="card-img-top" src="<%= burger.image %>" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Nom</h5>
+    <p class="card-text"><%= burger.name %></p>
+    <h5 class="card-title">Prix</h5>
+    <p class="card-text"><%= burger.price %></p>
+    <h5 class="card-title">Description</h5>
+    <p class="card-text"><%= burger.description %></p>
+     <h5 class="card-title">Veggie</h5>
+    <p class="card-text"><%= burger.veggie %></p>
   </div>
+</div>
 </div>

@@ -65,3 +65,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem 'autoprefixer-rails', '~> 10.4', '>= 10.4.16.0'
+gem 'popper_js', '~> 2.11', '>= 2.11.8'
+gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
+gem 'bootstrap', '~> 5.2', '>= 5.2.3'
