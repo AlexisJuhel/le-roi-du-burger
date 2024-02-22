@@ -198,17 +198,16 @@ h2 {
 }
 
 #map {
-  width: 700px;
+  width: 50vw;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
   align-content: center;
   flex-direction: column;
   align-items: center;
   background-color: #522411;
   border-radius: 10px;
   padding: 20px 20px 40px 20px;
-  margin-bottom: 20px;
+  margin: 20px 0px 20px 0px;
 }
 
 #on_va_ou {

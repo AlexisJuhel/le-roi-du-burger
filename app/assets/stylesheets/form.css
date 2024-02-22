@@ -59,6 +59,7 @@
 }
 
 .retour{
+  width: 30vh;
   appearance: none;
   outline: 0px;
   cursor: pointer;
@@ -69,6 +70,10 @@
   padding: 12px 24px;
   margin-top: 10px;
   border: medium none;
-  background: rgb(247, 168, 0);
   color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.retour:hover{
+  transform: scale(1.1);
 }
