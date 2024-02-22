@@ -133,6 +133,7 @@ h2 {
 
 .card-body{
   background-color: #FF8732;
+  font-family: insaniburger;
   border: none;
 }
 
@@ -221,7 +222,7 @@ h2 {
   background-color: #522411;
   border-radius: 10px;
   padding: 20px 20px 40px 20px;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0px 50px 0px;
 }
 
 #on_va_ou {
