@@ -1,13 +1,15 @@
 <link rel="stylesheet" type="text/css" href=app/assets/stylesheets/index.css/>
 <p style="color: green"><%= notice %></p>
 
-<div class="burger_moment">
-  <div class="burger_moment_card">
-    <h1 class="txt_special">Le Roi Du Burger</h1>
-    <%= image_tag "logo_roi_du_burger.png", alt:"Logo du Roi du Burger" %>
-    <h2 class="txt_special">Le spécial</h2>
-    <p class="card_description txt_special">Il est bon lui.</p>
-  </div>
+<h1>Nos Burgers les plus GRRRRR</h1>
+
+<div id="burgers" col >
+  <% @burgers.each do |burger| %>
+    <%= render burger %>
+    <p>
+      <%= link_to "Show this burger", burger %>
+    </p>
+  <% end %>
 </div>
 
 <h1>Nos Burgers les plus GRRRRR</h1>
