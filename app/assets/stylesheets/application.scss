@@ -13,11 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
  @import "bootstrap";
 
  @font-face {
   font-family: 'insaniburger';
-  src: url('insanibu.ttf') format('truetype');
+  src: asset-url('Insanibu.ttf') format('truetype');
+}
+
+body {
+  font-family: 'insaniburger';
 }
 
 
@@ -40,7 +45,6 @@ img[alt="Logo du Roi du Burger"] {
 }
 
 .creat_burger {
-  font-family: insaniburger;
   background-color: #CC1900;
   color: #ECE6DD;
   border: 0px;
@@ -60,7 +64,6 @@ img[alt="Logo du Roi du Burger"] {
 }
 
 .view_burger {
-  font-family: insaniburger;
   background-color: #CC1900;
   color: #ECE6DD;
   border: 0px;
@@ -91,5 +94,4 @@ footer{
   color: #ECE6DD;
   font-size: 20px;
   font-weight: bold;
-  font-family: insaniburger;
 }
