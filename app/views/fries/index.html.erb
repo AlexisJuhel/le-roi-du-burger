@@ -1,14 +1,35 @@
+
+<%= stylesheet_link_tag "index", "data-turbo-track": "reload" %>
 <p style="color: green"><%= notice %></p>
 
-<h1>Fries</h1>
-
-<div id="fries">
-  <% @fries.each do |fry| %>
-    <%= render fry %>
-    <p>
-      <%= link_to "Show this fry", fry %>
-    </p>
-  <% end %>
+<div class="burger_moment">
+  <div class="burger_moment_card">
+    <h1 class="txt_special">Le Roi Du Burger</h1>
+    <%= image_tag "logo_roi_du_burger.png", alt:"Logo du Roi du Burger" %>
+    <h2 class="txt_special">Le spécial</h2>
+    <p class="card_description txt_special">Il est bon lui.</p>
+  </div>
 </div>
 
-<%= link_to "New fry", new_fry_path %>
+<h1>Nos Encas les plus crounch crounch</h1>
+
+<div id="dispo_menu">
+  <div class="row">
+    <% @fries.each do |fry| %>
+      <div class="col-lg-4">
+        <%= render fry %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<div class="disposition_ajout_burger">
+  <%= link_to "Ajouter un encas +", new_fry_path, class: "bouton_ajout_burger" %>
+</div>
+
+  <div id="disposition_map">
+    <div id="map">
+      <h1 id="on_va_ou">On va où ???</h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.160605841225!2d-0.567809343563199!3d44.879380445905745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5529fd793afcb3%3A0xc85e33c336150653!2sBurger%20King!5e0!3m2!1sfr!2sfr!4v1708594111403!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>

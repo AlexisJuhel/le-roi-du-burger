@@ -1,9 +1,10 @@
-<h1>New fry</h1>
+<%= stylesheet_link_tag "form", "data-turbo-track": "reload" %>
+<h1>Créer un nouveau encas</h1>
 
 <%= render "form", fry: @fry %>
 
 <br>
 
 <div>
-  <%= link_to "Back to fries", fries_path %>
+  <%= link_to image_tag("retour_arriere.png", class: "retour"), fries_path %>
 </div>

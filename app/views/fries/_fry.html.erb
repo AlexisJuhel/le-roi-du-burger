@@ -1,22 +1,17 @@
-<div id="<%= dom_id fry %>">
-  <p>
-    <strong>Image:</strong>
-    <%= fry.image %>
-  </p>
 
-  <p>
-    <strong>Name:</strong>
-    <%= fry.name %>
-  </p>
 
-  <p>
-    <strong>Price:</strong>
-    <%= fry.price %>
-  </p>
-
-  <p>
-    <strong>Description:</strong>
-    <%= fry.description %>
-  </p>
-
+<%= stylesheet_link_tag "index", "data-turbo-track": "reload" %>
+<div class="card mb-4">
+  <img class="card-img-top" src="<%= fry.image %>" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Nom</h5>
+    <p><%= fry.name %></p>
+    <p><%= fry.price %> €</p>
+    <p><%= fry.description %></p>
+    <div class="button_montre_moi_ca">
+      <p class="montre_moi_ca">
+        <%= link_to "Montre moi ça", fry %>
+      </p>
+    </div>
+  </div>
 </div>
