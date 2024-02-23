@@ -15,11 +15,10 @@
 <h1>Nos Glaces les plus GLAGLAGLA</h1>
 
 <div id="dispo_menu">
-  <div id="disposition_card_menu">
-    <% @icecreams.each do |icecream| %>
-     <div class="col-lg-6">
+  <div class="row">
+  <% @icecreams.each do |icecream| %>
+      <div class="col-lg-4">
         <%= render icecream %>
-        </div>
       </div>
     <% end %>
   </div>
