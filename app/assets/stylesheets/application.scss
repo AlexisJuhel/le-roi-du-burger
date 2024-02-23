@@ -40,11 +40,11 @@ img[alt="Logo du Roi du Burger"] {
   border: 0px;
   border-radius: 5px;
   padding: 10px;
-  margin-right: 20vh;
   font-size: 40px;
   font-weight: bold;
   transition: 0.5s;
   text-decoration: none;
+  margin: 10vh;
 }
 
 .creat_burger:hover {
@@ -60,7 +60,6 @@ img[alt="Logo du Roi du Burger"] {
   border: 0px;
   border-radius: 5px;
   padding: 10px;
-  margin-left: 20vh;
   font-size: 40px;
   font-weight: bold;
   transition: 0.5s;
@@ -72,8 +71,6 @@ img[alt="Logo du Roi du Burger"] {
   color: #CC1900;
   cursor: pointer;
 }
-
-
 
 footer{
   background-color: #522411;
