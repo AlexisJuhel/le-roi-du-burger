@@ -3,8 +3,17 @@
 <%= render @fry %>
 
 <div>
-  <%= link_to "Edit this fry", edit_fry_path(@fry) %> |
+  <%= link_to image_tag("modifier_frite.png", class: "modifier_burger"), edit_fry_path(@fry) %> |
   <%= link_to "Back to fries", fries_path %>
 
   <%= button_to "Destroy this fry", @fry, method: :delete %>
 </div>
+<div class="disposition_edit_sup">
+
+  <%= link_to image_tag("modifier_burger.png", class: "modifier_burger"), edit_burger_path(@burger) %>
+
+  <%= button_to image_tag("supprimer_burger.png", class: "supprimer_burger"), @burger, method: :delete, class:"destroy" %>
+
+</div>
+
+<%= link_to image_tag("retour_aux_burger.png", class: "retour_aux_burgers"), burgers_path %>
