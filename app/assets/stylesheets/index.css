@@ -19,8 +19,11 @@ body{
     align-items: center;
     background-color: #CC1900;
     border-radius: 10px;
-    width: 500px;
-    height: 400px;
+    width: 27vw;
+}
+
+.img_special{
+  width: 10vw;
 }
 
 .txt_special {
