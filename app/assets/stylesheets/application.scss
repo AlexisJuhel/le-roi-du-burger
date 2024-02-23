@@ -15,6 +15,11 @@
  */
  @import "bootstrap";
 
+ @font-face {
+  font-family: 'insanibu';
+  src: url('insanubu.ttf') format('truetype');
+}
+
 header {
   background-color: #522411;
   width: 100%;
