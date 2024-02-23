@@ -8,6 +8,12 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+    @font-face {
+      font-family: 'NomDeLaTypographie';
+      src: url('../app/assets/font/Insanibu.woff2') format('woff2'),
+           url('../app/assets/font/Insanibu.woff') format('woff');
+    }
   </head>
 
   <body>
