@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @fry %>
+
+<div>
+  <%= link_to "Edit this fry", edit_fry_path(@fry) %> |
+  <%= link_to "Back to fries", fries_path %>
+
+  <%= button_to "Destroy this fry", @fry, method: :delete %>
+</div>
