@@ -19,11 +19,12 @@ body{
     align-items: center;
     background-color: #CC1900;
     border-radius: 10px;
-    width: 27vw;
+    width: 30vw;
+    height: 60vh;
 }
 
 .img_special{
-  width: 10vw;
+  width: 20vw;
 }
 
 .txt_special {
